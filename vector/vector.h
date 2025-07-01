@@ -16,5 +16,6 @@ typedef struct s_vec
 
 t_vec add_vec(t_vec a, t_vec b);
 t_vec vec_scale(t_vec vec1, double scale);
+double   vec_mod(t_vec vec);
 
 #endif
