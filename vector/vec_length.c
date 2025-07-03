@@ -15,7 +15,7 @@ double	square_root(double n)
     return x;
 }
 
-double   vec_mod(t_vec vec)
+double   vec_length(t_vec vec)
 {
     double sum;
 
