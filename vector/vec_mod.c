@@ -1,6 +1,6 @@
 #include "vector.h"
 
-double  square_root(double n)
+double	square_root(double n)
 {
     double x;
     int i;
