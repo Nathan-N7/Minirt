@@ -20,5 +20,7 @@ double	vec_length(t_vec vec);
 t_vec	vec_sub(t_vec a, t_vec b);
 double  vec_prodesc(t_vec a, t_vec b);
 t_vec	vec_normalize(t_vec a);
+double	square_root(double n);
+double	vec_distance(t_vec a, t_vec b);
 
 #endif
