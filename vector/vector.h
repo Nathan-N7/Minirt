@@ -18,5 +18,6 @@ t_vec	add_vec(t_vec a, t_vec b);
 t_vec	vec_scale(t_vec vec1, double scale);
 double	vec_mod(t_vec vec);
 t_vec	vec_sub(t_vec a, t_vec b);
+double  vec_prodesc(t_vec a, t_vec b);
 
 #endif
