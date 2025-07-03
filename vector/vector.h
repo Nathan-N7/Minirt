@@ -22,5 +22,6 @@ double  vec_prodesc(t_vec a, t_vec b);
 t_vec	vec_normalize(t_vec a);
 double	square_root(double n);
 double	vec_distance(t_vec a, t_vec b);
+t_vec   negate(t_vec a);
 
 #endif
