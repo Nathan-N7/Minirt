@@ -5,6 +5,7 @@ t_vec  vec_normalize(t_vec a)
     double   length;
     t_vec   norme;
 
+    length = vec_length(a);
     if (length == 0)
     {
         norme.x = 0;
@@ -12,7 +13,6 @@ t_vec  vec_normalize(t_vec a)
         norme.z = 0;
         return (norme);
     }
-    length = vec_length(a);
     norme.x = a.x / length;
     norme.y = a.y / length;
     norme.z = a.z / length;
