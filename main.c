@@ -3,5 +3,8 @@
 
 int main()
 {
-    /*main principal do programa!!*/
+    t_window    mlx;
+
+    creat_window(&mlx, 1280, 720);
+    return (0);
 }

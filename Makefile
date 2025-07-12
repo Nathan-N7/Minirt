@@ -15,7 +15,8 @@ SRCS = \
 	vector/vec_prodesc.c \
 	vector/vec_scale.c \
 	vector/vec_sub.c \
-	window/creat_window.c
+	window/creat_window.c \
+	window/color_img.c
 
 OBJS = $(SRCS:.c=.o)
 
