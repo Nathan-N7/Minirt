@@ -22,6 +22,14 @@ static int  event_close(t_window *mlx)
     exit(0);
 }
 
+static int aspect_ratio(int width, int height)
+{
+    if (width * 9 == height * 16)
+        return (0);
+    else
+        return (1);
+}
+
 void    creat_window(t_window *mlx, int width, int heigth)
 {
     mlx = (t_window *)malloc(sizeof(t_window));
