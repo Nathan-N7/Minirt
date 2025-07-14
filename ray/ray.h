@@ -9,5 +9,6 @@ typedef struct s_ray
 }   t_ray;
 
 t_ray   ray_creat(t_vec origin, t_vec direction);
+t_vec   rat_get_pos(t_ray ray, double t);
 
 #endif
