@@ -24,5 +24,6 @@ t_vec	vec_normalize(t_vec a);
 double	square_root(double n);
 double	vec_distance(t_vec a, t_vec b);
 t_vec   negate(t_vec a);
+t_vec   init_vec(double x, double y, double z);
 
 #endif
